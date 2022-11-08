@@ -26,6 +26,7 @@ Deployment
 ==========
 
 #### You need node.js for this! You can download it [here](https://nodejs.org/)
+rund npm install to install all dependencies from [package.json](package.json)
 
 ### Parcel
 
@@ -47,3 +48,14 @@ The docs in your comments collection should also have auto id along with 3 field
 1. id of type string containing the id of the post it's about
 2. name of type string
 3. text of type string
+
+### TailwindCSS
+
+[tailwind.config.js](tailwind.config.js) is configured correctly
+in order to run tailwind you will need to excecute: 
+npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch
+
+
+license
+-------
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
