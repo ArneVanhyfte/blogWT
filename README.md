@@ -35,7 +35,7 @@ I used parcel to bundle my project in development and to build the final version
 2. use npm build to build the project 
 These script are already configured in the [package.json](package.json)
 
-###FirebaseConfig
+### FirebaseConfig
 Make sure to add your personal FirebaseConfig details in [map_getPosts.js](build/js/map_getPosts.js), [getPostInfo.js](build/js/getPostInfo.js) and [comments.js](build/js/comments.js)
 The docs in your posts collection should have auto-id along with 4 fields:
 1. title of type string
