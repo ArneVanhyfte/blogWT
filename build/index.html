@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PC2WRLVMFJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-PC2WRLVMFJ');
+    </script>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer type="module" src="./js/map_getPosts.js"></script>
+    <script defer src="./js/lod.js"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-r from-white to-teal-100/80 bg-blend-saturation flex flex-col ">
+<header class="min-w-full h-fit bg-sky-900 grid mb-16">
+    <div class="w-full max-w-7xl flex flex-row place-content-between items-center ml-auto mr-auto sm:pl-8 sm:pr-8 xl:pl-0 xl:pr-0">
+        <div class="font-extrabold text-xl md:text-4xl p-4 text-white">ArneDives</div>
+        <div class="font-bold text-4xl">
+            <ul class="flex flex-row gap-4 p-4 pr-2 sm:pr-4 text-white text-xs md:text-xl">
+                <li><a href="#">Home</a></li>
+                <li><a href="./posts">Posts</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main class="flex flex-col gap-8 min-h-max m-8 mb-16 lg:m-16 max-w-7xl self-center">
+    <section>
+        <div class="flex flex-col">
+            <h1 class="font-bold text-3xl sm:text-5xl min-w-fit self-center mb-8">Welcome to my blog</h1>
+            <p class="text-base sm:text-lg lg:text-xl self-center text-center">Hello and welcome to my blog!<br>
+            The current version doesn't feature many posts yet :( but there are many more to come as time goes on!<br>
+            I hope you enjoy reading the few posts i've made and hopefully you like the pictures I took. <br>
+                Thank you!</p>
+
+        </div>
+    </section>
+    <section class="previews h-fit">
+        <div class="mb-8">
+            <h2 class="font-bold text-4xl min-w-fit self-center">Recent Posts:</h2>
+        </div>
+
+        <div class="rposts grid md:grid-cols-2 grid-cols-1 xl:grid-cols-3 gap-4 grid-flow-dense md:auto-rows-[22rem] h-fit">
+
+        </div>
+    </section>
+
+
+    <section class="idol mt-8 flex flex-col gap-8 hidden">
+        <div class="flex flex-col gap-4">
+            <h2 class="name font-bold text-4xl min-w-fit self-center"></h2>
+            <p class="text-base sm:text-lg lg:text-xl text-center self-center">Jacques Cousteau is THE pioneer of diving. Diving (and the world)
+                wouldn't be the same without him.</p>
+        </div>
+        <div class="pictures grid grid-cols-2 gap-4 justify-items-stretch">
+
+        </div>
+    </section>
+</main>
+<footer class="min-w-max bg-sky-900 flex justify-center items-center h-32 mt-auto">
+    <ul class="flex flex-row gap-4 p-4 text-white">
+        <li>© Arne Vanhyfte 2022</li>
+        <li><a href="https://www.instagram.com/arnevanhyfte/">
+            <img src="./img/insta.png" alt="instagram logo" class="h-8">
+        </a></li>
+        <li></li>
+    </ul>
+</footer>
+
+</body>
+</html>
